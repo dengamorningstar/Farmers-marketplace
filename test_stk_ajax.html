@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AJAX STK Test</title>
+</head>
+<body>
+
+<h2>Test STK via AJAX</h2>
+
+<label>Order ID</label><br>
+<input type="number" id="order_id" value="1"><br><br>
+
+<label>Phone</label><br>
+<input type="text" id="phone" value="0712345678"><br><br>
+
+<button onclick="sendSTK()">Send STK</button>
+
+<pre id="output"></pre>
+
+<script>
+function sendSTK() {
+
+    let formData = new URLSearchParams();
+    formData.append("order_id", document.getElementById("order_id").value);
+    formData.append("phone", document.getElementById("phone").value);
+
+    fetch("actions/initiate_stk.php", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/x-www-form-urlencoded"
+        },
+        body: formData.toString()
+    })
+    .then(res => res.json())
+    .then(data => {
+
+        console.log(data);
+        document.getElementById("output").innerText =
+            JSON.stringify(data, null, 4);
+
+    })
+    .catch(err => {
+        document.getElementById("output").innerText = err;
+    });
+}
+</script>
+
+</body>
+</html>
