@@ -1,0 +1,399 @@
+2026-05-11 21:41:27
+
+
+2026-05-12 00:05:24
+{"Body":{"stkCallback":{"MerchantRequestID":"fa8c-47b5-a1d7-ebaebbc78c2910613","CheckoutRequestID":"ws_CO_12052026010505279725151469","ResultCode":1,"ResultDesc":"The balance is insufficient for the transaction."}}}
+
+2026-05-12 00:06:45
+{"Body":{"stkCallback":{"MerchantRequestID":"fa8c-47b5-a1d7-ebaebbc78c2910655","CheckoutRequestID":"ws_CO_12052026010628771725151469","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":5},{"Name":"MpesaReceiptNumber","Value":"UECDG3NJFZ"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260512010645},{"Name":"PhoneNumber","Value":254725151469}]}}}}
+
+2026-05-12 00:26:39
+{"Body":{"stkCallback":{"MerchantRequestID":"fa8c-47b5-a1d7-ebaebbc78c2911241","CheckoutRequestID":"ws_CO_12052026012616746725151469","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":1},{"Name":"MpesaReceiptNumber","Value":"UECDG3NGHV"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260512012638},{"Name":"PhoneNumber","Value":254725151469}]}}}}
+
+2026-05-12 00:37:41
+{"Body":{"stkCallback":{"MerchantRequestID":"e9d4-4e35-99d1-3876a8cbbc4048001","CheckoutRequestID":"ws_CO_12052026013726919725151469","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":1},{"Name":"MpesaReceiptNumber","Value":"UECDG3NI0R"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260512013740},{"Name":"PhoneNumber","Value":254725151469}]}}}}
+
+2026-05-12 11:58:50
+{"Body":{"stkCallback":{"MerchantRequestID":"d9f9-432c-bfcf-70e84a2762cd4308","CheckoutRequestID":"ws_CO_12052026125841009742479000","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":5},{"Name":"MpesaReceiptNumber","Value":"UECN23ZJWJ"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260512125849},{"Name":"PhoneNumber","Value":254742479000}]}}}}
+
+2026-05-12 12:34:48
+{"Body":{"stkCallback":{"MerchantRequestID":"58b9-4365-b234-81eafe86bc364487","CheckoutRequestID":"ws_CO_12052026133422864742479000","ResultCode":1037,"ResultDesc":"No response from user."}}}
+
+2026-05-12 12:37:47
+{"Body":{"stkCallback":{"MerchantRequestID":"49ea-4d67-bb8f-5f8e42df28ec1381","CheckoutRequestID":"ws_CO_12052026133731872742479000","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":5},{"Name":"MpesaReceiptNumber","Value":"UECN23ZTYZ"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260512133747},{"Name":"PhoneNumber","Value":254742479000}]}}}}
+
+2026-05-12 14:05:19
+{"Body":{"stkCallback":{"MerchantRequestID":"d9f9-432c-bfcf-70e84a2762cd7009","CheckoutRequestID":"ws_CO_12052026150506445742479000","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":5},{"Name":"MpesaReceiptNumber","Value":"UECN2404WZ"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260512150519},{"Name":"PhoneNumber","Value":254742479000}]}}}}
+
+2026-05-12 14:34:00
+{"Body":{"stkCallback":{"MerchantRequestID":"58b9-4365-b234-81eafe86bc367101","CheckoutRequestID":"ws_CO_12052026153351166742479000","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":5},{"Name":"MpesaReceiptNumber","Value":"UECN2409JP"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260512153400},{"Name":"PhoneNumber","Value":254742479000}]}}}}
+
+[2026-05-12 18:58:25] RAW CALLBACK:
+[2026-05-12 18:58:25] {"Body":{"stkCallback":{"MerchantRequestID":"29ed-4881-b9d0-e76cc0adfd6e24097","CheckoutRequestID":"ws_CO_12052026195812067742479000","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":5},{"Name":"MpesaReceiptNumber","Value":"UECN241O57"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260512195825},{"Name":"PhoneNumber","Value":254742479000}]}}}}
+[2026-05-12 18:58:25] CheckoutRequestID: ws_CO_12052026195812067742479000
+[2026-05-12 18:58:25] ResultCode: 0
+[2026-05-12 18:58:25] Order ID: 69
+[2026-05-12 18:58:25] Receipt: UECN241O57
+[2026-05-12 18:58:25] Payments updated
+[2026-05-12 18:58:25] Orders updated
+[2026-05-12 18:58:25] Updated order state: {"payment_status":"paid","status":"confirmed"}
+[2026-05-12 18:58:25] Stock updated for product: 9
+[2026-05-12 18:58:25] Earnings inserted
+[2026-05-12 18:58:25] Notification inserted
+[2026-05-12 18:58:25] TRANSACTION COMMITTED
+[2026-05-13 03:04:58] RAW CALLBACK:
+[2026-05-13 03:04:59] {"Body":{"stkCallback":{"MerchantRequestID":"d9f9-432c-bfcf-70e84a2762cd30235","CheckoutRequestID":"ws_CO_13052026040439928725151469","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":5},{"Name":"MpesaReceiptNumber","Value":"UEDDG3RD9V"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260513040457},{"Name":"PhoneNumber","Value":254725151469}]}}}}
+[2026-05-13 03:04:59] CheckoutRequestID: ws_CO_13052026040439928725151469
+[2026-05-13 03:04:59] ResultCode: 0
+[2026-05-13 03:04:59] Order ID: 57
+[2026-05-13 03:04:59] Receipt: UEDDG3RD9V
+[2026-05-13 03:04:59] Payments updated
+[2026-05-13 03:04:59] Orders updated
+[2026-05-13 03:04:59] Updated order state: {"payment_status":"paid","status":"confirmed"}
+[2026-05-13 03:04:59] Stock updated for product: 9
+[2026-05-13 03:04:59] Earnings inserted
+[2026-05-13 03:04:59] Notification inserted
+[2026-05-13 03:04:59] TRANSACTION COMMITTED
+[2026-05-13 03:34:11] RAW CALLBACK:
+[2026-05-13 03:34:11] {"Body":{"stkCallback":{"MerchantRequestID":"bae4-4f49-a0d0-a30ee62c430f9017","CheckoutRequestID":"ws_CO_13052026043401472725151469","ResultCode":1032,"ResultDesc":"Request Cancelled by user."}}}
+[2026-05-13 03:34:11] CheckoutRequestID: ws_CO_13052026043401472725151469
+[2026-05-13 03:34:11] ResultCode: 1032
+[2026-05-13 03:34:11] Order ID: 56
+[2026-05-13 03:34:11] Payment failed
+[2026-05-13 03:37:04] RAW CALLBACK:
+[2026-05-13 03:37:04] {"Body":{"stkCallback":{"MerchantRequestID":"bae4-4f49-a0d0-a30ee62c430f9150","CheckoutRequestID":"ws_CO_13052026043647541725151469","ResultCode":1032,"ResultDesc":"Request Cancelled by user."}}}
+[2026-05-13 03:37:04] CheckoutRequestID: ws_CO_13052026043647541725151469
+[2026-05-13 03:37:04] ResultCode: 1032
+[2026-05-13 03:37:04] Order ID: 55
+[2026-05-13 03:37:04] Payment failed
+[2026-05-13 04:00:04] RAW CALLBACK:
+[2026-05-13 04:00:04] {"Body":{"stkCallback":{"MerchantRequestID":"bae4-4f49-a0d0-a30ee62c430f9853","CheckoutRequestID":"ws_CO_13052026045949336725151469","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":5},{"Name":"MpesaReceiptNumber","Value":"UEDDG3RKCP"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260513050003},{"Name":"PhoneNumber","Value":254725151469}]}}}}
+[2026-05-13 04:00:04] CheckoutRequestID: ws_CO_13052026045949336725151469
+[2026-05-13 04:00:04] ResultCode: 0
+[2026-05-13 04:00:04] Order ID: 54
+[2026-05-13 04:00:04] Receipt: UEDDG3RKCP
+[2026-05-13 04:00:04] Payments updated
+[2026-05-13 04:00:04] Orders updated
+[2026-05-13 04:00:04] Updated order state: {"payment_status":"paid","status":"confirmed"}
+[2026-05-13 04:00:04] Stock updated for product: 9
+[2026-05-13 04:00:04] Earnings inserted
+[2026-05-13 04:00:04] Notification inserted
+[2026-05-13 04:00:04] TRANSACTION COMMITTED
+[2026-05-13 04:24:04] RAW CALLBACK:
+[2026-05-13 04:24:04] {"Body":{"stkCallback":{"MerchantRequestID":"d9f9-432c-bfcf-70e84a2762cd32740","CheckoutRequestID":"ws_CO_13052026052344842725151469","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":15},{"Name":"MpesaReceiptNumber","Value":"UEDDG3REUW"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260513052403},{"Name":"PhoneNumber","Value":254725151469}]}}}}
+[2026-05-13 04:24:04] CheckoutRequestID: ws_CO_13052026052344842725151469
+[2026-05-13 04:24:04] ResultCode: 0
+[2026-05-13 04:24:04] Order ID: 70
+[2026-05-13 04:24:04] Receipt: UEDDG3REUW
+[2026-05-13 04:24:04] Payments updated
+[2026-05-13 04:24:04] Orders updated
+[2026-05-13 04:24:04] Updated order state: {"payment_status":"paid","status":"confirmed"}
+[2026-05-13 04:24:04] Stock updated for product: 9
+[2026-05-13 04:24:04] Earnings inserted
+[2026-05-13 04:24:04] Notification inserted
+[2026-05-13 04:24:04] TRANSACTION COMMITTED
+[2026-05-13 04:47:52] RAW CALLBACK:
+[2026-05-13 04:47:52] {"Body":{"stkCallback":{"MerchantRequestID":"bae4-4f49-a0d0-a30ee62c430f11421","CheckoutRequestID":"ws_CO_13052026054725642725151469","ResultCode":1037,"ResultDesc":"No response from user."}}}
+[2026-05-13 04:47:52] CheckoutRequestID: ws_CO_13052026054725642725151469
+[2026-05-13 04:47:52] ResultCode: 1037
+[2026-05-13 04:47:52] Order ID: 71
+[2026-05-13 04:47:52] Payment failed
+[2026-05-13 04:48:26] RAW CALLBACK:
+[2026-05-13 04:48:26] {"Body":{"stkCallback":{"MerchantRequestID":"bae4-4f49-a0d0-a30ee62c430f11434","CheckoutRequestID":"ws_CO_13052026054811227725151469","ResultCode":1037,"ResultDesc":"DS timeout user cannot be reached."}}}
+[2026-05-13 04:48:26] CheckoutRequestID: ws_CO_13052026054811227725151469
+[2026-05-13 04:48:26] ResultCode: 1037
+[2026-05-13 04:48:26] Order ID: 71
+[2026-05-13 04:48:26] Payment failed
+[2026-05-13 04:49:36] RAW CALLBACK:
+[2026-05-13 04:49:36] {"Body":{"stkCallback":{"MerchantRequestID":"bae4-4f49-a0d0-a30ee62c430f11484","CheckoutRequestID":"ws_CO_13052026054925858742479000","ResultCode":1,"ResultDesc":"The balance is insufficient for the transaction."}}}
+[2026-05-13 04:49:36] CheckoutRequestID: ws_CO_13052026054925858742479000
+[2026-05-13 04:49:36] ResultCode: 1
+[2026-05-13 04:49:36] Order ID: 71
+[2026-05-13 04:49:36] Payment failed
+[2026-05-13 04:50:53] RAW CALLBACK:
+[2026-05-13 04:50:53] {"Body":{"stkCallback":{"MerchantRequestID":"bae4-4f49-a0d0-a30ee62c430f11564","CheckoutRequestID":"ws_CO_13052026055045212742479000","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":11},{"Name":"MpesaReceiptNumber","Value":"UEDN242F6N"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260513055053},{"Name":"PhoneNumber","Value":254742479000}]}}}}
+[2026-05-13 04:50:53] CheckoutRequestID: ws_CO_13052026055045212742479000
+[2026-05-13 04:50:53] ResultCode: 0
+[2026-05-13 04:50:53] Order ID: 71
+[2026-05-13 04:50:53] Receipt: UEDN242F6N
+[2026-05-13 04:50:54] Payments updated
+[2026-05-13 04:50:54] Orders updated
+[2026-05-13 04:50:54] Updated order state: {"payment_status":"paid","status":"confirmed"}
+[2026-05-13 04:50:54] Stock updated for product: 9
+[2026-05-13 04:50:54] Earnings inserted
+[2026-05-13 04:50:54] Notification inserted
+[2026-05-13 04:50:54] Stock updated for product: 5
+[2026-05-13 04:50:54] ROLLBACK EXECUTED
+[2026-05-13 04:50:54] ERROR: Duplicate entry '71-2' for key 'unique_order_farmer'
+[2026-05-13 05:05:20] RAW CALLBACK:
+[2026-05-13 05:05:20] {"Body":{"stkCallback":{"MerchantRequestID":"d9f9-432c-bfcf-70e84a2762cd34264","CheckoutRequestID":"ws_CO_13052026060511492742479000","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":15},{"Name":"MpesaReceiptNumber","Value":"UEDN242HK6"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260513060519},{"Name":"PhoneNumber","Value":254742479000}]}}}}
+[2026-05-13 05:05:20] CheckoutRequestID: ws_CO_13052026060511492742479000
+[2026-05-13 05:05:20] ResultCode: 0
+[2026-05-13 05:05:20] Order ID: 72
+[2026-05-13 05:05:20] Receipt: UEDN242HK6
+[2026-05-13 05:05:20] Payments updated
+[2026-05-13 05:05:20] Orders updated
+[2026-05-13 05:05:20] Updated order state: {"payment_status":"paid","status":"confirmed"}
+[2026-05-13 05:05:20] Stock updated for product: 9
+[2026-05-13 05:05:20] Earnings inserted
+[2026-05-13 05:05:20] Notification inserted
+[2026-05-13 05:05:20] Stock updated for product: 5
+[2026-05-13 05:05:20] ROLLBACK EXECUTED
+[2026-05-13 05:05:20] ERROR: Duplicate entry '72-2' for key 'unique_order_farmer'
+[2026-05-13 05:21:35] RAW CALLBACK:
+[2026-05-13 05:21:35] {"Body":{"stkCallback":{"MerchantRequestID":"bae4-4f49-a0d0-a30ee62c430f12553","CheckoutRequestID":"ws_CO_13052026062127785742479000","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":14},{"Name":"MpesaReceiptNumber","Value":"UEDN242KEH"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260513062135},{"Name":"PhoneNumber","Value":254742479000}]}}}}
+[2026-05-13 05:21:35] CheckoutRequestID: ws_CO_13052026062127785742479000
+[2026-05-13 05:21:35] ResultCode: 0
+[2026-05-13 05:21:35] Order ID: 73
+[2026-05-13 05:21:35] Receipt: UEDN242KEH
+[2026-05-13 05:21:35] Payments updated
+[2026-05-13 05:21:35] Orders updated
+[2026-05-13 05:21:35] Updated order state: {"payment_status":"paid","status":"confirmed"}
+[2026-05-13 05:21:35] Stock updated for product: 9
+[2026-05-13 05:21:35] Earnings inserted
+[2026-05-13 05:21:35] Notification inserted
+[2026-05-13 05:21:35] Stock updated for product: 5
+[2026-05-13 05:21:35] ROLLBACK EXECUTED
+[2026-05-13 05:21:35] ERROR: Duplicate entry '73-2' for key 'unique_order_farmer'
+[2026-05-13 05:41:28] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"d9f9-432c-bfcf-70e84a2762cd35480","CheckoutRequestID":"ws_CO_13052026064119838742479000","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":8},{"Name":"MpesaReceiptNumber","Value":"UEDN242J1E"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260513064127},{"Name":"PhoneNumber","Value":254742479000}]}}}}
+[2026-05-13 05:41:28] CheckoutRequestID: ws_CO_13052026064119838742479000
+[2026-05-13 05:41:28] Payment marked PAID
+[2026-05-13 05:41:28] Order updated
+[2026-05-13 05:41:28] Stock + earnings processed once
+[2026-05-13 05:41:28] TRANSACTION COMPLETE
+[2026-05-13 06:17:36] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"bae4-4f49-a0d0-a30ee62c430f14447","CheckoutRequestID":"ws_CO_13052026071729157742479000","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":6},{"Name":"MpesaReceiptNumber","Value":"UEDN242GW7"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260513071735},{"Name":"PhoneNumber","Value":254742479000}]}}}}
+[2026-05-13 06:17:36] Payment updated
+[2026-05-13 06:17:36] Order updated
+[2026-05-13 06:17:36] Order items updated to PAID
+[2026-05-13 06:17:36] TRANSACTION SUCCESS
+[2026-05-13 07:38:17] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"d9f9-432c-bfcf-70e84a2762cd39549","CheckoutRequestID":"ws_CO_13052026083807853742479000","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":9},{"Name":"MpesaReceiptNumber","Value":"UEDN242Y57"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260513083816},{"Name":"PhoneNumber","Value":254742479000}]}}}}
+[2026-05-13 07:38:17] Payment updated
+[2026-05-13 07:38:17] Order updated
+[2026-05-13 07:38:17] Order items updated to PROCESSING
+[2026-05-13 07:38:17] TRANSACTION SUCCESS
+[2026-05-13 10:30:07] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"d41e-4cae-8c15-e035a3386b8b1383","CheckoutRequestID":"ws_CO_13052026112959672742479000","ResultCode":1032,"ResultDesc":"Request Cancelled by user."}}}
+[2026-05-13 10:30:07] Payment failed
+[2026-05-13 10:30:23] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"bae4-4f49-a0d0-a30ee62c430f23054","CheckoutRequestID":"ws_CO_13052026113014967742479000","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":5},{"Name":"MpesaReceiptNumber","Value":"UEDN243AAE"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260513113022},{"Name":"PhoneNumber","Value":254742479000}]}}}}
+[2026-05-13 10:30:23] Payment updated
+[2026-05-13 10:30:23] Order updated
+[2026-05-13 10:30:23] Order items updated to PROCESSING
+[2026-05-13 10:30:23] TRANSACTION SUCCESS
+[2026-05-13 13:26:13] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"51b8-42c0-94ee-51cdb8f2afc5762","CheckoutRequestID":"ws_CO_13052026142605813742479000","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":10},{"Name":"MpesaReceiptNumber","Value":"UEDN2442QH"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260513142612},{"Name":"PhoneNumber","Value":254742479000}]}}}}
+[2026-05-13 13:26:13] Payment updated
+[2026-05-13 13:26:13] Order updated to CONFIRMED
+[2026-05-13 13:26:13] Order items moved to PROCESSING
+[2026-05-13 13:26:13] TRANSACTION SUCCESS
+[2026-05-13 14:37:33] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"403d-4454-bb17-1410335a7f8d10244","CheckoutRequestID":"ws_CO_13052026153724164742479000","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":13},{"Name":"MpesaReceiptNumber","Value":"UEDN2448AV"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260513153731},{"Name":"PhoneNumber","Value":254742479000}]}}}}
+[2026-05-13 14:37:33] Payment updated
+[2026-05-13 14:37:33] Order updated to CONFIRMED
+[2026-05-13 14:37:33] Order items forced to PROCESSING
+[2026-05-13 14:37:33] TRANSACTION SUCCESS
+[2026-05-13 15:20:27] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"51b8-42c0-94ee-51cdb8f2afc53146","CheckoutRequestID":"ws_CO_13052026162018574742479000","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":17},{"Name":"MpesaReceiptNumber","Value":"UEDN244CXW"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260513162026},{"Name":"PhoneNumber","Value":254742479000}]}}}}
+[2026-05-13 15:20:27] Payment updated
+[2026-05-13 15:20:27] Order updated to CONFIRMED
+[2026-05-13 15:20:27] Order items set to PROCESSING
+[2026-05-13 15:20:27] TRANSACTION SUCCESS
+[2026-05-14 21:16:21] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"6c47-4c84-b774-94b357f8d46d21291","CheckoutRequestID":"ws_CO_14052026221614036742479000","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":5},{"Name":"MpesaReceiptNumber","Value":"UEEN24AGYX"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260514221621},{"Name":"PhoneNumber","Value":254742479000}]}}}}
+[2026-05-14 21:16:21] Payment updated
+[2026-05-14 21:16:21] Order updated to CONFIRMED
+[2026-05-14 21:16:21] Order items set to PROCESSING
+[2026-05-14 21:16:21] TRANSACTION SUCCESS
+[2026-05-14 21:31:04] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"6c47-4c84-b774-94b357f8d46d21765","CheckoutRequestID":"ws_CO_14052026223056785742479000","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":5},{"Name":"MpesaReceiptNumber","Value":"UEEN24AKZL"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260514223104},{"Name":"PhoneNumber","Value":254742479000}]}}}}
+[2026-05-14 21:31:04] Payment updated
+[2026-05-14 21:31:04] Order updated to CONFIRMED
+[2026-05-14 21:31:04] Order items set to PROCESSING
+[2026-05-14 21:31:04] TRANSACTION SUCCESS
+[2026-05-15 07:46:07] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"ef87-4352-acae-930cd1222b2816860","CheckoutRequestID":"ws_CO_15052026084559397742479000","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":10},{"Name":"MpesaReceiptNumber","Value":"UEFN24B2VO"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260515084606},{"Name":"PhoneNumber","Value":254742479000}]}}}}
+[2026-05-15 07:46:07] Payment updated
+[2026-05-15 07:46:07] Order updated to CONFIRMED
+[2026-05-15 07:46:07] Order items set to PROCESSING
+[2026-05-15 07:46:07] TRANSACTION SUCCESS
+[2026-05-15 08:07:06] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"df32-4182-b083-18ef0f79bbf611847","CheckoutRequestID":"ws_CO_15052026090658521742479000","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":5},{"Name":"MpesaReceiptNumber","Value":"UEFN24BB5T"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260515090705},{"Name":"PhoneNumber","Value":254742479000}]}}}}
+[2026-05-15 08:07:06] Payment updated
+[2026-05-15 08:07:06] Order updated to CONFIRMED
+[2026-05-15 08:07:06] Order items set to PROCESSING
+[2026-05-15 08:07:06] TRANSACTION SUCCESS
+[2026-05-15 11:28:15] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"df32-4182-b083-18ef0f79bbf620031","CheckoutRequestID":"ws_CO_15052026122807704742479000","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":7},{"Name":"MpesaReceiptNumber","Value":"UEFN24BTA1"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260515122814},{"Name":"PhoneNumber","Value":254742479000}]}}}}
+[2026-05-15 11:28:15] Payment not found
+[2026-05-15 11:36:44] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"f4d7-4ac3-9a2a-e3e59bbbc4c35860","CheckoutRequestID":"ws_CO_15052026123635804742479000","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":1},{"Name":"MpesaReceiptNumber","Value":"UEFN24BW6A"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260515123643},{"Name":"PhoneNumber","Value":254742479000}]}}}}
+[2026-05-15 11:36:44] Payment not found
+[2026-05-15 11:40:50] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"f4d7-4ac3-9a2a-e3e59bbbc4c36022","CheckoutRequestID":"ws_CO_15052026124044190742479000","ResultCode":1032,"ResultDesc":"Request Cancelled by user."}}}
+[2026-05-15 12:05:25] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"ef87-4352-acae-930cd1222b2827332","CheckoutRequestID":"ws_CO_15052026130517146742479000","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":1},{"Name":"MpesaReceiptNumber","Value":"UEFN24BXS1"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260515130524},{"Name":"PhoneNumber","Value":254742479000}]}}}}
+[2026-05-15 14:25:36] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"f4d7-4ac3-9a2a-e3e59bbbc4c310906","CheckoutRequestID":"ws_CO_15052026152526104748855033","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":5},{"Name":"MpesaReceiptNumber","Value":"UEF554A1S8"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260515152535},{"Name":"PhoneNumber","Value":254748855033}]}}}}
+[2026-05-15 14:51:47] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"df32-4182-b083-18ef0f79bbf625967","CheckoutRequestID":"ws_CO_15052026155139871748855033","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":10},{"Name":"MpesaReceiptNumber","Value":"UEF554A4QW"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260515155147},{"Name":"PhoneNumber","Value":254748855033}]}}}}
+[2026-05-15 15:31:25] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"6649-41a1-b30b-860b506bccf213260","CheckoutRequestID":"ws_CO_15052026163116810748855033","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":10},{"Name":"MpesaReceiptNumber","Value":"UEF554A8BR"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260515163125},{"Name":"PhoneNumber","Value":254748855033}]}}}}
+[2026-05-15 15:31:25] Payment updated
+[2026-05-15 15:31:25] Order confirmed
+[2026-05-15 15:31:25] TRANSACTION SUCCESS
+[2026-05-15 16:10:50] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"ef87-4352-acae-930cd1222b2834735","CheckoutRequestID":"ws_CO_15052026171042163748855033","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":5},{"Name":"MpesaReceiptNumber","Value":"UEF554AJYC"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260515171049},{"Name":"PhoneNumber","Value":254748855033}]}}}}
+[2026-05-15 16:10:50] Payment updated
+[2026-05-15 16:10:50] Order confirmed
+[2026-05-15 16:10:50] TRANSACTION SUCCESS
+[2026-05-15 16:15:57] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"6649-41a1-b30b-860b506bccf213996","CheckoutRequestID":"ws_CO_15052026171551008748855033","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":5},{"Name":"MpesaReceiptNumber","Value":"UEF554AFXC"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260515171557},{"Name":"PhoneNumber","Value":254748855033}]}}}}
+[2026-05-15 16:15:57] Payment updated
+[2026-05-15 16:15:57] Order confirmed
+[2026-05-15 16:15:57] TRANSACTION SUCCESS
+[2026-05-16 12:26:49] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"3c24-4cc8-8b3d-9b0742a72c1818980","CheckoutRequestID":"ws_CO_16052026132637324748855033","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":10.00},{"Name":"MpesaReceiptNumber","Value":"UEG554DQLL"},{"Name":"Balance","Value":0.00},{"Name":"TransactionDate","Value":20260516132648},{"Name":"PhoneNumber","Value":254748855033}]}}}}
+[2026-05-16 12:26:49] Payment updated
+[2026-05-16 12:26:49] Order confirmed
+[2026-05-16 12:26:49] TRANSACTION SUCCESS
+[2026-05-16 16:23:26] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"f4d7-4ac3-9a2a-e3e59bbbc4c338776","CheckoutRequestID":"ws_CO_16052026172319591748855033","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":20},{"Name":"MpesaReceiptNumber","Value":"UEG554EUBX"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260516172326},{"Name":"PhoneNumber","Value":254748855033}]}}}}
+[2026-05-16 16:23:26] Payment updated
+[2026-05-16 16:23:26] Order confirmed
+[2026-05-16 16:23:26] TRANSACTION SUCCESS
+[2026-05-16 19:16:03] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"3c24-4cc8-8b3d-9b0742a72c1833894","CheckoutRequestID":"ws_CO_16052026201556231748855033","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":100},{"Name":"MpesaReceiptNumber","Value":"UEG554FWJC"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260516201603},{"Name":"PhoneNumber","Value":254748855033}]}}}}
+[2026-05-16 19:16:03] Payment updated
+[2026-05-16 19:16:03] Order confirmed
+[2026-05-16 19:16:03] TRANSACTION SUCCESS
+[2026-05-16 20:06:14] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"28cd-4451-94fd-5c9d7d41b14e4804","CheckoutRequestID":"ws_CO_16052026210607033748855033","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":300},{"Name":"MpesaReceiptNumber","Value":"UEG554FZ5F"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260516210614},{"Name":"PhoneNumber","Value":254748855033}]}}}}
+[2026-05-16 20:06:14] Payment updated
+[2026-05-16 20:06:14] Order confirmed
+[2026-05-16 20:06:14] TRANSACTION SUCCESS
+[2026-05-16 20:41:12] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"df8f-463f-8d03-e2998ffab8f136","CheckoutRequestID":"ws_CO_16052026214102658748855033","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":20},{"Name":"MpesaReceiptNumber","Value":"UEG554GBZ9"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260516214112},{"Name":"PhoneNumber","Value":254748855033}]}}}}
+[2026-05-16 20:41:12] Payment updated
+[2026-05-16 20:41:12] Order confirmed
+[2026-05-16 20:41:12] TRANSACTION SUCCESS
+[2026-05-17 09:45:15] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"c2f5-42c3-bd54-c21a5b32d2e81598","CheckoutRequestID":"ws_CO_17052026104507070748855033","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":5},{"Name":"MpesaReceiptNumber","Value":"UEH554HD13"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260517104513},{"Name":"PhoneNumber","Value":254748855033}]}}}}
+[2026-05-17 09:45:15] Payment updated
+[2026-05-17 09:45:15] Order confirmed
+[2026-05-17 09:45:15] TRANSACTION SUCCESS
+[2026-05-17 09:56:32] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"e506-4549-bc20-4b4ca80c6c4523866","CheckoutRequestID":"ws_CO_17052026105624584748855033","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":10},{"Name":"MpesaReceiptNumber","Value":"UEH554H7V3"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260517105631},{"Name":"PhoneNumber","Value":254748855033}]}}}}
+[2026-05-17 09:56:32] Payment updated
+[2026-05-17 09:56:32] Order confirmed
+[2026-05-17 09:56:32] TRANSACTION SUCCESS
+[2026-05-18 20:02:40] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"dda7-4512-9b45-2df1b362f83b65867","CheckoutRequestID":"ws_CO_18052026210232495748855033","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":5},{"Name":"MpesaReceiptNumber","Value":"UEI554NLH8"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260518210239},{"Name":"PhoneNumber","Value":254748855033}]}}}}
+[2026-05-18 20:02:40] Payment updated
+[2026-05-18 20:02:40] Order confirmed
+[2026-05-18 20:02:40] TRANSACTION SUCCESS
+[2026-05-18 21:23:12] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"61b7-4af2-b02f-06a886a7f2b97071","CheckoutRequestID":"ws_CO_18052026222301989706684740","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":20},{"Name":"MpesaReceiptNumber","Value":"UEI014RPV1"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260518222311},{"Name":"PhoneNumber","Value":254706684740}]}}}}
+[2026-05-18 21:23:12] Payment updated
+[2026-05-18 21:23:12] Order confirmed
+[2026-05-18 21:23:12] TRANSACTION SUCCESS
+[2026-05-19 11:25:34] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"99dc-4bd9-8c94-0799072cc82c952","CheckoutRequestID":"ws_CO_19052026122522500748855033","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":50.00},{"Name":"MpesaReceiptNumber","Value":"UEJ554P7E3"},{"Name":"Balance","Value":0.00},{"Name":"TransactionDate","Value":20260519122533},{"Name":"PhoneNumber","Value":254748855033}]}}}}
+[2026-05-19 11:25:34] Payment updated
+[2026-05-19 11:25:34] Order confirmed
+[2026-05-19 11:25:34] TRANSACTION SUCCESS
+[2026-05-19 13:05:16] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"99dc-4bd9-8c94-0799072cc82c3138","CheckoutRequestID":"ws_CO_19052026140504925748855033","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":30.00},{"Name":"MpesaReceiptNumber","Value":"UEJ554PGX0"},{"Name":"Balance","Value":0.00},{"Name":"TransactionDate","Value":20260519140515},{"Name":"PhoneNumber","Value":254748855033}]}}}}
+[2026-05-19 13:05:16] Payment updated
+[2026-05-19 13:05:16] Order confirmed
+[2026-05-19 13:05:16] TRANSACTION SUCCESS
+[2026-05-19 15:17:51] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"50df-4f26-b3a1-c3e0f10f7899791","CheckoutRequestID":"ws_CO_19052026161736666748855033","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":30.00},{"Name":"MpesaReceiptNumber","Value":"UEJ554PSHV"},{"Name":"Balance","Value":0.00},{"Name":"TransactionDate","Value":20260519161750},{"Name":"PhoneNumber","Value":254748855033}]}}}}
+[2026-05-19 15:17:51] Payment updated
+[2026-05-19 15:17:51] Order confirmed
+[2026-05-19 15:17:51] TRANSACTION SUCCESS
+[2026-05-20 09:40:25] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"dd6a-4d7e-938b-ae00af39790718156","CheckoutRequestID":"ws_CO_20052026104019101748855033","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":5},{"Name":"MpesaReceiptNumber","Value":"UEK554SG2X"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260520104026},{"Name":"PhoneNumber","Value":254748855033}]}}}}
+[2026-05-20 09:40:25] Payment updated
+[2026-05-20 09:40:25] Order confirmed
+[2026-05-20 09:40:25] TRANSACTION SUCCESS
+[2026-05-20 10:02:26] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"3c26-4fc2-aa31-e9156af705ae201","CheckoutRequestID":"ws_CO_20052026110216687748855033","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":10},{"Name":"MpesaReceiptNumber","Value":"UEK554SPQS"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260520110226},{"Name":"PhoneNumber","Value":254748855033}]}}}}
+[2026-05-20 10:02:26] Payment updated
+[2026-05-20 10:02:26] Order confirmed
+[2026-05-20 10:02:26] TRANSACTION SUCCESS
+[2026-05-20 16:35:35] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"9ab6-4c19-ac0c-2589a788f92a23410","CheckoutRequestID":"ws_CO_20052026173528578742479000","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":390},{"Name":"MpesaReceiptNumber","Value":"UEKN24WP3S"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260520173535},{"Name":"PhoneNumber","Value":254742479000}]}}}}
+[2026-05-20 16:35:35] Payment updated
+[2026-05-20 16:35:35] Order confirmed
+[2026-05-20 16:35:35] TRANSACTION SUCCESS
+[2026-05-20 17:31:24] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"9ab6-4c19-ac0c-2589a788f92a25966","CheckoutRequestID":"ws_CO_20052026183112564742479000","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":420},{"Name":"MpesaReceiptNumber","Value":"UEKN24X2WA"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260520183123},{"Name":"PhoneNumber","Value":254742479000}]}}}}
+[2026-05-20 17:31:24] Payment updated
+[2026-05-20 17:31:24] Order confirmed
+[2026-05-20 17:31:24] TRANSACTION SUCCESS
+[2026-05-20 22:09:45] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"9ab6-4c19-ac0c-2589a788f92a39758","CheckoutRequestID":"ws_CO_20052026230938360742479000","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":770},{"Name":"MpesaReceiptNumber","Value":"UEKN24YBR3"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260520230945},{"Name":"PhoneNumber","Value":254742479000}]}}}}
+[2026-05-20 22:09:45] Payment updated
+[2026-05-20 22:09:45] Order confirmed
+[2026-05-20 22:09:45] TRANSACTION SUCCESS
+[2026-05-21 01:33:54] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"9ab6-4c19-ac0c-2589a788f92a48103","CheckoutRequestID":"ws_CO_21052026023346628742479000","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":1490},{"Name":"MpesaReceiptNumber","Value":"UELN24YLKK"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260521023353},{"Name":"PhoneNumber","Value":254742479000}]}}}}
+[2026-05-21 01:33:54] Payment updated
+[2026-05-21 01:33:54] Order confirmed
+[2026-05-21 01:33:54] TRANSACTION SUCCESS
+[2026-05-21 09:24:14] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"4dad-4dd9-9105-a76a6f5f546913631","CheckoutRequestID":"ws_CO_21052026102403105742479000","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":240},{"Name":"MpesaReceiptNumber","Value":"UELN24ZAPF"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260521102413},{"Name":"PhoneNumber","Value":254742479000}]}}}}
+[2026-05-21 09:24:14] Payment updated
+[2026-05-21 09:24:14] Order confirmed
+[2026-05-21 09:24:14] TRANSACTION SUCCESS
+[2026-05-21 09:25:46] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"c4bf-4cd4-930f-4385c2336b4a14032","CheckoutRequestID":"ws_CO_21052026102538277742479000","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":450},{"Name":"MpesaReceiptNumber","Value":"UELN24ZD94"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260521102544},{"Name":"PhoneNumber","Value":254742479000}]}}}}
+[2026-05-21 09:25:46] Payment updated
+[2026-05-21 09:25:46] Order confirmed
+[2026-05-21 09:25:46] TRANSACTION SUCCESS
+[2026-05-21 09:44:14] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"4dad-4dd9-9105-a76a6f5f546914804","CheckoutRequestID":"ws_CO_21052026104404974742479000","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":250},{"Name":"MpesaReceiptNumber","Value":"UELN24ZB28"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260521104412},{"Name":"PhoneNumber","Value":254742479000}]}}}}
+[2026-05-21 09:44:14] Payment updated
+[2026-05-21 09:44:14] Order confirmed
+[2026-05-21 09:44:14] TRANSACTION SUCCESS
+[2026-05-21 09:53:26] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"c4bf-4cd4-930f-4385c2336b4a15307","CheckoutRequestID":"ws_CO_21052026105317436742479000","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":300},{"Name":"MpesaReceiptNumber","Value":"UELN24ZHTS"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260521105325},{"Name":"PhoneNumber","Value":254742479000}]}}}}
+[2026-05-21 09:53:26] Payment updated
+[2026-05-21 09:53:26] Order confirmed
+[2026-05-21 09:53:26] TRANSACTION SUCCESS
+[2026-05-21 11:40:40] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"c4bf-4cd4-930f-4385c2336b4a21848","CheckoutRequestID":"ws_CO_21052026124025458742479000","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":480},{"Name":"MpesaReceiptNumber","Value":"UELN24ZRJ8"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260521124038},{"Name":"PhoneNumber","Value":254742479000}]}}}}
+[2026-05-21 11:40:40] Payment updated
+[2026-05-21 11:40:40] Order confirmed
+[2026-05-21 11:40:40] TRANSACTION SUCCESS
+[2026-05-21 11:49:22] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"4dad-4dd9-9105-a76a6f5f546923266","CheckoutRequestID":"ws_CO_21052026124914648742479000","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":240},{"Name":"MpesaReceiptNumber","Value":"UELN24ZROQ"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260521124921},{"Name":"PhoneNumber","Value":254742479000}]}}}}
+[2026-05-21 11:49:22] Payment updated
+[2026-05-21 11:49:22] Order confirmed
+[2026-05-21 11:49:22] TRANSACTION SUCCESS
+[2026-05-21 12:57:21] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"0cfd-45af-a6df-5eda97a6742c818","CheckoutRequestID":"ws_CO_21052026135712359742479000","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":300},{"Name":"MpesaReceiptNumber","Value":"UELN24ZYB1"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260521135719},{"Name":"PhoneNumber","Value":254742479000}]}}}}
+[2026-05-21 12:57:21] Payment updated
+[2026-05-21 12:57:21] Order confirmed
+[2026-05-21 12:57:21] TRANSACTION SUCCESS
+[2026-05-22 10:15:31] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"9b6f-4ec3-9ce8-d381c0aa172519123","CheckoutRequestID":"ws_CO_22052026111523456742479000","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":50},{"Name":"MpesaReceiptNumber","Value":"UEMN253LUT"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260522111531},{"Name":"PhoneNumber","Value":254742479000}]}}}}
+[2026-05-22 10:15:31] Payment updated
+[2026-05-22 10:15:31] Order confirmed
+[2026-05-22 10:15:31] TRANSACTION SUCCESS
+[2026-05-24 00:56:30] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"9b6f-4ec3-9ce8-d381c0aa1725135625","CheckoutRequestID":"ws_CO_24052026015621644742479000","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":300},{"Name":"MpesaReceiptNumber","Value":"UEON25B6ZU"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260524015629},{"Name":"PhoneNumber","Value":254742479000}]}}}}
+[2026-05-24 00:56:30] Payment updated
+[2026-05-24 00:56:30] Order confirmed
+[2026-05-24 00:56:30] TRANSACTION SUCCESS
+[2026-05-24 07:49:33] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"9b6f-4ec3-9ce8-d381c0aa1725149617","CheckoutRequestID":"ws_CO_24052026084923201742479000","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":240},{"Name":"MpesaReceiptNumber","Value":"UEON25BJDF"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260524084933},{"Name":"PhoneNumber","Value":254742479000}]}}}}
+[2026-05-24 07:49:33] Payment updated
+[2026-05-24 07:49:33] Order confirmed
+[2026-05-24 07:49:33] TRANSACTION SUCCESS
+[2026-05-24 10:49:12] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"b3c4-481e-af05-5665a17e6c5035124","CheckoutRequestID":"ws_CO_24052026114903678742479000","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":250},{"Name":"MpesaReceiptNumber","Value":"UEON25C0UG"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260524114911},{"Name":"PhoneNumber","Value":254742479000}]}}}}
+[2026-05-24 10:49:12] Payment updated
+[2026-05-24 10:49:12] Order confirmed
+[2026-05-24 10:49:13] TRANSACTION SUCCESS
+[2026-05-24 12:28:59] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"b3c4-481e-af05-5665a17e6c5061111","CheckoutRequestID":"ws_CO_24052026132850703742479000","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":240},{"Name":"MpesaReceiptNumber","Value":"UEON25C90T"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260524132858},{"Name":"PhoneNumber","Value":254742479000}]}}}}
+[2026-05-24 12:28:59] Payment updated
+[2026-05-24 12:28:59] Order confirmed
+[2026-05-24 12:28:59] TRANSACTION SUCCESS
+[2026-05-24 12:55:12] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"b3c4-481e-af05-5665a17e6c5069179","CheckoutRequestID":"ws_CO_24052026135504192742479000","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":200},{"Name":"MpesaReceiptNumber","Value":"UEON25CDTW"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260524135511},{"Name":"PhoneNumber","Value":254742479000}]}}}}
+[2026-05-24 12:55:12] Payment updated
+[2026-05-24 12:55:12] Order confirmed
+[2026-05-24 12:55:12] TRANSACTION SUCCESS
+[2026-05-24 13:06:37] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"b3c4-481e-af05-5665a17e6c5073423","CheckoutRequestID":"ws_CO_24052026140630341742479000","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":300},{"Name":"MpesaReceiptNumber","Value":"UEON25CNCJ"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260524140637},{"Name":"PhoneNumber","Value":254742479000}]}}}}
+[2026-05-24 13:06:37] Payment updated
+[2026-05-24 13:06:37] Order confirmed
+[2026-05-24 13:06:37] TRANSACTION SUCCESS
+[2026-05-24 21:05:33] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"9b6f-4ec3-9ce8-d381c0aa1725276957","CheckoutRequestID":"ws_CO_24052026220518665742479000","ResultCode":1037,"ResultDesc":"DS timeout user cannot be reached."}}}
+[2026-05-24 21:05:33] Payment FAILED
+[2026-05-24 21:07:28] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"b3c4-481e-af05-5665a17e6c50148103","CheckoutRequestID":"ws_CO_24052026220721637742479000","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":210},{"Name":"MpesaReceiptNumber","Value":"UEON25EQ9R"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260524220729},{"Name":"PhoneNumber","Value":254742479000}]}}}}
+[2026-05-24 21:07:28] Payment updated
+[2026-05-24 21:07:28] Order confirmed
+[2026-05-24 21:07:28] TRANSACTION SUCCESS
+[2026-05-24 23:07:52] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"b3c4-481e-af05-5665a17e6c50152892","CheckoutRequestID":"ws_CO_25052026000741817742479000","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":100},{"Name":"MpesaReceiptNumber","Value":"UEPN25F0FQ"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260525000752},{"Name":"PhoneNumber","Value":254742479000}]}}}}
+[2026-05-24 23:07:52] Payment updated
+[2026-05-24 23:07:52] Order confirmed
+[2026-05-24 23:07:52] TRANSACTION SUCCESS
+[2026-05-24 23:20:55] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"9b6f-4ec3-9ce8-d381c0aa1725328178","CheckoutRequestID":"ws_CO_25052026002048880742479000","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":150},{"Name":"MpesaReceiptNumber","Value":"UEPN25EXLE"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260525002055},{"Name":"PhoneNumber","Value":254742479000}]}}}}
+[2026-05-24 23:20:55] Payment updated
+[2026-05-24 23:20:55] Order confirmed
+[2026-05-24 23:20:55] TRANSACTION SUCCESS
+[2026-05-24 23:31:17] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"b3c4-481e-af05-5665a17e6c50158905","CheckoutRequestID":"ws_CO_25052026003110762742479000","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":300},{"Name":"MpesaReceiptNumber","Value":"UEPN25EWDO"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260525003117},{"Name":"PhoneNumber","Value":254742479000}]}}}}
+[2026-05-24 23:31:17] Payment updated
+[2026-05-24 23:31:17] Order confirmed
+[2026-05-24 23:31:17] TRANSACTION SUCCESS
+[2026-05-25 06:19:38] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"9b6f-4ec3-9ce8-d381c0aa1725470578","CheckoutRequestID":"ws_CO_25052026071926708748855033","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":180},{"Name":"MpesaReceiptNumber","Value":"UEP555C3V1"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260525071933},{"Name":"PhoneNumber","Value":254748855033}]}}}}
+[2026-05-25 06:19:38] Payment updated
+[2026-05-25 06:19:38] Order confirmed
+[2026-05-25 06:19:38] TRANSACTION SUCCESS
+[2026-05-25 06:22:51] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"9b6f-4ec3-9ce8-d381c0aa1725471730","CheckoutRequestID":"ws_CO_25052026072235625748855033","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":450},{"Name":"MpesaReceiptNumber","Value":"UEP555C7U5"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260525072241},{"Name":"PhoneNumber","Value":254748855033}]}}}}
+[2026-05-25 06:22:51] Payment updated
+[2026-05-25 06:22:51] Order confirmed
+[2026-05-25 06:22:51] TRANSACTION SUCCESS
+[2026-05-25 06:34:50] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"b3c4-481e-af05-5665a17e6c50194659","CheckoutRequestID":"ws_CO_25052026073429725748855033","ResultCode":1032,"ResultDesc":"Request Cancelled by user."}}}
+[2026-05-25 06:34:50] Payment FAILED
+[2026-05-25 06:36:52] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"9b6f-4ec3-9ce8-d381c0aa1725476888","CheckoutRequestID":"ws_CO_25052026073637838742479000","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":100},{"Name":"MpesaReceiptNumber","Value":"UEPN25F8AP"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260525073651},{"Name":"PhoneNumber","Value":254742479000}]}}}}
+[2026-05-25 06:36:52] Payment updated
+[2026-05-25 06:36:52] Order confirmed
+[2026-05-25 06:36:52] TRANSACTION SUCCESS
+[2026-05-25 09:54:28] RAW CALLBACK: {"Body":{"stkCallback":{"MerchantRequestID":"b3c4-481e-af05-5665a17e6c50238811","CheckoutRequestID":"ws_CO_25052026105408943748855033","ResultCode":0,"ResultDesc":"The service request is processed successfully.","CallbackMetadata":{"Item":[{"Name":"Amount","Value":25},{"Name":"MpesaReceiptNumber","Value":"UEP555CMYF"},{"Name":"Balance"},{"Name":"TransactionDate","Value":20260525105420},{"Name":"PhoneNumber","Value":254748855033}]}}}}
+[2026-05-25 09:54:28] Payment updated
+[2026-05-25 09:54:28] Order confirmed
+[2026-05-25 09:54:29] TRANSACTION SUCCESS

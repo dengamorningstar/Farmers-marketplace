@@ -1,0 +1,31 @@
+<?php
+session_start();
+include("../includes/db.php");
+
+if (!isset($_SESSION['user']) || $_SESSION['role'] != 'admin') {
+    header("Location: ../pages/login.php");
+    exit();
+}
+
+if (!isset($_GET['user_id'])) {
+    die("Invalid request");
+}
+
+$user_id = (int) $_GET['user_id'];
+
+/* prevent deleting self */
+if ($user_id == $_SESSION['user']) {
+    die("You cannot delete yourself.");
+}
+
+$stmt = $conn->prepare("
+    DELETE FROM users
+    WHERE user_id = ?
+");
+
+$stmt->bind_param("i", $user_id);
+$stmt->execute();
+
+header("Location: ../pages/manage_users.php");
+exit();
+?>

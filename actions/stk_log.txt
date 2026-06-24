@@ -1,0 +1,360 @@
+TOKEN ERROR: 
+2026-04-26 22:54:23 TOKEN ERROR: 
+2026-04-26 23:38:59 TOKEN ERROR: 
+2026-04-26 23:47:33 TOKEN ERROR: 
+2026-04-27 02:28:38 TOKEN ERROR: 
+2026-04-27 18:25:57 TOKEN ERROR: 
+2026-04-27 19:22:05 STK RESPONSE: {
+                    "requestId":"e5c0-45e8-b9cf-e1f769550e1734874",
+                    "errorCode": "500.001.1001",
+                    "errorMessage": "Wrong credentials"
+                }
+            
+2026-04-29 15:25:01 STK RESPONSE: {
+                    "requestId":"98af-41cc-b897-7b9aa487500949416",
+                    "errorCode": "500.001.1001",
+                    "errorMessage": "Wrong credentials"
+                }
+            
+2026-04-30 07:04:39 STK RESPONSE: {
+                    "requestId":"4038-4fda-9c69-9b31e58c59332515",
+                    "errorCode": "500.001.1001",
+                    "errorMessage": "Wrong credentials"
+                }
+            
+2026-04-30 07:44:19 STK RESPONSE: {
+                    "requestId":"4038-4fda-9c69-9b31e58c59334150",
+                    "errorCode": "500.001.1001",
+                    "errorMessage": "Wrong credentials"
+                }
+            
+2026-04-30 07:44:37 STK RESPONSE: {
+                    "requestId":"08e6-4ff8-a042-c46dbbe741bf40724",
+                    "errorCode": "500.001.1001",
+                    "errorMessage": "Wrong credentials"
+                }
+            
+2026-05-09 11:44:58 STK RESPONSE: {
+                    "requestId":"d43d-468f-946f-b89daab004f917829",
+                    "errorCode": "400.002.02",
+                    "errorMessage": "Bad Request - Invalid CallBackURL"
+                }
+            
+2026-05-09 12:34:48 STK RESPONSE: {
+                    "requestId":"d43d-468f-946f-b89daab004f920164",
+                    "errorCode": "400.002.02",
+                    "errorMessage": "Bad Request - Invalid CallBackURL"
+                }
+            
+2026-05-09 13:09:31 STK RESPONSE: {
+                    "requestId":"26fa-4b86-9cc1-90ba35028ad838134",
+                    "errorCode": "400.002.02",
+                    "errorMessage": "Bad Request - Invalid CallBackURL"
+                }
+            
+2026-05-09 13:32:41 STK RESPONSE: {
+                    "requestId":"d43d-468f-946f-b89daab004f922224",
+                    "errorCode": "500.001.1001",
+                    "errorMessage": "Wrong credentials"
+                }
+            
+2026-05-11 17:43:05 STK RESPONSE: {
+                    "requestId":"6579-4df0-89be-ce31fd02c6ab19874",
+                    "errorCode": "500.001.1001",
+                    "errorMessage": "Wrong credentials"
+                }
+            
+2026-05-11 17:43:23 STK RESPONSE: {
+                    "requestId":"9caa-476f-a9ce-f6505a68d3bb17",
+                    "errorCode": "500.001.1001",
+                    "errorMessage": "Wrong credentials"
+                }
+            
+2026-05-11 17:45:39 STK RESPONSE: {
+                    "requestId":"e9d4-4e35-99d1-3876a8cbbc4041807",
+                    "errorCode": "500.001.1001",
+                    "errorMessage": "Wrong credentials"
+                }
+            
+2026-05-11 21:18:10 STK RESPONSE: {
+                    "requestId":"e9d4-4e35-99d1-3876a8cbbc4045855",
+                    "errorCode": "500.001.1001",
+                    "errorMessage": "Wrong credentials"
+                }
+            
+2026-05-11 21:18:23 STK RESPONSE: {
+                    "requestId":"29ed-4881-b9d0-e76cc0adfd6e2110",
+                    "errorCode": "500.001.1001",
+                    "errorMessage": "Wrong credentials"
+                }
+            
+2026-05-11 21:39:00 STK RESPONSE: {
+                    "requestId":"fa8c-47b5-a1d7-ebaebbc78c296108",
+                    "errorCode": "500.001.1001",
+                    "errorMessage": "Wrong credentials"
+                }
+            
+2026-05-11 21:39:08 STK RESPONSE: {
+                    "requestId":"fa8c-47b5-a1d7-ebaebbc78c296117",
+                    "errorCode": "500.003.02",
+                    "errorMessage": "System is busy. Please try again in few minutes."
+                }
+            
+2026-05-11 22:00:09 STK RESPONSE: {
+                    "requestId":"fa8c-47b5-a1d7-ebaebbc78c296766",
+                    "errorCode": "500.001.1001",
+                    "errorMessage": "Wrong credentials"
+                }
+            
+2026-05-11 23:28:59 STK RESPONSE: {
+            "MerchantRequestID":"fa8c-47b5-a1d7-ebaebbc78c299546",
+            "CheckoutRequestID":"ws_CO_12052026002900198725151469",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+2026-05-12 00:05:04 STK RESPONSE: {
+            "MerchantRequestID":"fa8c-47b5-a1d7-ebaebbc78c2910613",
+            "CheckoutRequestID":"ws_CO_12052026010505279725151469",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+2026-05-12 00:06:28 STK RESPONSE: {
+            "MerchantRequestID":"fa8c-47b5-a1d7-ebaebbc78c2910655",
+            "CheckoutRequestID":"ws_CO_12052026010628771725151469",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+2026-05-12 00:26:16 STK RESPONSE: {
+            "MerchantRequestID":"fa8c-47b5-a1d7-ebaebbc78c2911241",
+            "CheckoutRequestID":"ws_CO_12052026012616746725151469",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+2026-05-12 00:37:26 STK RESPONSE: {
+            "MerchantRequestID":"e9d4-4e35-99d1-3876a8cbbc4048001",
+            "CheckoutRequestID":"ws_CO_12052026013726919725151469",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+2026-05-12 11:58:39 STK RESPONSE: {
+            "MerchantRequestID":"d9f9-432c-bfcf-70e84a2762cd4308",
+            "CheckoutRequestID":"ws_CO_12052026125841009742479000",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+2026-05-12 12:34:21 STK RESPONSE: {
+            "MerchantRequestID":"58b9-4365-b234-81eafe86bc364487",
+            "CheckoutRequestID":"ws_CO_12052026133422864742479000",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+2026-05-12 12:34:26 TEST PAYMENT AUTO-CONFIRMED FOR ORDER #63
+2026-05-12 12:37:30 STK RESPONSE: {
+            "MerchantRequestID":"49ea-4d67-bb8f-5f8e42df28ec1381",
+            "CheckoutRequestID":"ws_CO_12052026133731872742479000",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+2026-05-12 12:37:35 TEST PAYMENT AUTO-CONFIRMED FOR ORDER #64
+2026-05-12 14:05:05 STK RESPONSE: {
+            "MerchantRequestID":"d9f9-432c-bfcf-70e84a2762cd7009",
+            "CheckoutRequestID":"ws_CO_12052026150506445742479000",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+2026-05-12 14:32:30 SIM PAYMENT ORDER #66
+2026-05-12 14:33:49 STK RESPONSE: {
+            "MerchantRequestID":"58b9-4365-b234-81eafe86bc367101",
+            "CheckoutRequestID":"ws_CO_12052026153351166742479000",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+2026-05-12 14:42:43 SIM PAYMENT ORDER #68
+2026-05-12 18:58:10 STK RESPONSE: {
+            "MerchantRequestID":"29ed-4881-b9d0-e76cc0adfd6e24097",
+            "CheckoutRequestID":"ws_CO_12052026195812067742479000",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+2026-05-13 03:04:39 STK RESPONSE: {
+            "MerchantRequestID":"d9f9-432c-bfcf-70e84a2762cd30235",
+            "CheckoutRequestID":"ws_CO_13052026040439928725151469",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+2026-05-13 03:34:01 STK RESPONSE: {
+            "MerchantRequestID":"bae4-4f49-a0d0-a30ee62c430f9017",
+            "CheckoutRequestID":"ws_CO_13052026043401472725151469",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+2026-05-13 03:36:47 STK RESPONSE: {
+            "MerchantRequestID":"bae4-4f49-a0d0-a30ee62c430f9150",
+            "CheckoutRequestID":"ws_CO_13052026043647541725151469",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+2026-05-13 03:59:49 STK RESPONSE: {
+            "MerchantRequestID":"bae4-4f49-a0d0-a30ee62c430f9853",
+            "CheckoutRequestID":"ws_CO_13052026045949336725151469",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+2026-05-13 04:23:44 STK RESPONSE: {
+            "MerchantRequestID":"d9f9-432c-bfcf-70e84a2762cd32740",
+            "CheckoutRequestID":"ws_CO_13052026052344842725151469",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+2026-05-13 04:47:25 STK RESPONSE: {
+            "MerchantRequestID":"bae4-4f49-a0d0-a30ee62c430f11421",
+            "CheckoutRequestID":"ws_CO_13052026054725642725151469",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+2026-05-13 04:48:11 STK RESPONSE: {
+            "MerchantRequestID":"bae4-4f49-a0d0-a30ee62c430f11434",
+            "CheckoutRequestID":"ws_CO_13052026054811227725151469",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+2026-05-13 04:49:25 STK RESPONSE: {
+            "MerchantRequestID":"bae4-4f49-a0d0-a30ee62c430f11484",
+            "CheckoutRequestID":"ws_CO_13052026054925858742479000",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+2026-05-13 04:50:45 STK RESPONSE: {
+            "MerchantRequestID":"bae4-4f49-a0d0-a30ee62c430f11564",
+            "CheckoutRequestID":"ws_CO_13052026055045212742479000",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+2026-05-13 05:05:11 STK RESPONSE: {
+            "MerchantRequestID":"d9f9-432c-bfcf-70e84a2762cd34264",
+            "CheckoutRequestID":"ws_CO_13052026060511492742479000",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+2026-05-13 05:21:27 STK RESPONSE: {
+            "MerchantRequestID":"bae4-4f49-a0d0-a30ee62c430f12553",
+            "CheckoutRequestID":"ws_CO_13052026062127785742479000",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+2026-05-13 05:41:19 STK RESPONSE: {
+            "MerchantRequestID":"d9f9-432c-bfcf-70e84a2762cd35480",
+            "CheckoutRequestID":"ws_CO_13052026064119838742479000",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+2026-05-13 06:08:37 STK RESPONSE: {
+            "MerchantRequestID":"bae4-4f49-a0d0-a30ee62c430f14127",
+            "CheckoutRequestID":"ws_CO_13052026070838002742479000",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+2026-05-13 06:17:28 STK RESPONSE: {
+            "MerchantRequestID":"bae4-4f49-a0d0-a30ee62c430f14447",
+            "CheckoutRequestID":"ws_CO_13052026071729157742479000",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+2026-05-13 07:38:07 STK RESPONSE: {
+            "MerchantRequestID":"d9f9-432c-bfcf-70e84a2762cd39549",
+            "CheckoutRequestID":"ws_CO_13052026083807853742479000",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+2026-05-13 10:29:59 STK RESPONSE: {
+            "MerchantRequestID":"d41e-4cae-8c15-e035a3386b8b1383",
+            "CheckoutRequestID":"ws_CO_13052026112959672742479000",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+2026-05-13 10:30:14 STK RESPONSE: {
+            "MerchantRequestID":"bae4-4f49-a0d0-a30ee62c430f23054",
+            "CheckoutRequestID":"ws_CO_13052026113014967742479000",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+2026-05-13 13:26:05 STK RESPONSE: {
+            "MerchantRequestID":"51b8-42c0-94ee-51cdb8f2afc5762",
+            "CheckoutRequestID":"ws_CO_13052026142605813742479000",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+2026-05-13 14:37:23 STK RESPONSE: {
+            "MerchantRequestID":"403d-4454-bb17-1410335a7f8d10244",
+            "CheckoutRequestID":"ws_CO_13052026153724164742479000",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
+2026-05-13 15:20:17 STK RESPONSE: {
+            "MerchantRequestID":"51b8-42c0-94ee-51cdb8f2afc53146",
+            "CheckoutRequestID":"ws_CO_13052026162018574742479000",
+            "ResponseCode": "0",
+            "ResponseDescription":"Success. Request accepted for processing",
+            "CustomerMessage":"Success. Request accepted for processing"
+        }
+        
